@@ -1,0 +1,39 @@
+.to{
+    display: flex;
+    /* display: flex; thuộc tính chia đôi cột */
+
+    /* width: 700px; */
+    width: 1000px;
+    height: 186px;
+    border: solid 2px red;
+}
+.trai{
+    width: 250px;
+    margin-right: 15px;
+}
+.phai{
+    width: 435px;
+    height: 186px;
+}
+.phainua{
+    margin-left: 10px;
+    width: 290px;
+
+}
+img{
+
+    /* lúc f5 lên vì ảnh to qua nên làm đè lên chữ .Nên ta phải dùng width:100% */
+    width: 100%;
+    /* 100% này là độ rộng của cái div bố của nó */
+    /* mà bố của ảnh là div trái nên độ rộng là 250px thôi */
+}
+img#alo{
+    width: 100%;
+    /* ok: nó theo cai độ rộng của cha nó mà :300px */
+}
+.so1 h3{
+    color: green;
+}
+.so2 h3{
+    color: red;
+}
